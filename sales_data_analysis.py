@@ -24,3 +24,14 @@ print(data.groupby("sex")["tip"].mean())
 # Group by day and total revenue
 print("\nTotal revenue by day:")
 print(data.groupby("day")["total_bill"].sum())
+
+import matplotlib.pyplot as plt
+
+# Revenue by day chart
+revenue_by_day = data.groupby("day")["total_bill"].sum()
+
+plt.bar(revenue_by_day.index, revenue_by_day.values)
+plt.title("Total Revenue by Day")
+plt.xlabel("Day")
+plt.ylabel("Revenue")
+plt.show()
