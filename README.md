@@ -1,8 +1,6 @@
-# data-analysis-project-1
-Beginner data analysis project using Python and pandas to explore and visualize sales and tipping data.
 Sales Data Analysis Project
 
-This project explores a sample sales and tipping dataset using Python, pandas, and basic data analysis techniques.
+This project explores a sample tipping/sales dataset using Python to demonstrate foundational data analysis skills.
 
 Tools Used
 
@@ -10,22 +8,37 @@ Python
 
 pandas
 
-NumPy
+matplotlib
 
-matplotlib (if you use it)
+What This Project Does
 
-Analysis Performed
+Loads a real-world CSV dataset
 
-Loaded and cleaned dataset
+Prints basic dataset exploration (head, info)
 
-Calculated averages and summary statistics
+Calculates key summary statistics (mean, max)
 
-Grouped data by customer attributes
+Groups data to compare patterns by category (gender, day)
 
-Identified revenue patterns by day
+Visualizes total revenue by day with a simple bar chart
 
-Created basic visualizations
+How to Run
+
+Clone the repository
+
+Install dependencies:
+
+python -m pip install -r requirements.txt
+
+Run the script:
+
+python sales_data_analysis.py
+Key Insights (Example Findings)
+
+Revenue varies by day, showing peak business days in the dataset
+
+Average tipping behavior differs slightly across groups
 
 Purpose
 
-This project is part of my transition into data analytics while pursuing a Bachelor of Science in Computer Science. It demonstrates foundational skills in Python-based data analysis and data exploration.
+This project is part of my transition into data analytics while pursuing a Bachelor of Science in Computer Science. It highlights practical skills in Python-based data exploration, grouping/aggregation, and basic visualization.
